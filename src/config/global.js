@@ -1,17 +1,34 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Confiabilidad, pruebas y análisis de la información',
+    descripcionCurso:
+      'Este componente formativo está diseñado con el fin de que el estudiante adquiera los conocimientos sobre conceptos necesarios para en su formación tales como: <em>frameworks</em> y librerías para programación, algunas nociones de DevOps, herramientas para llevar a cabo la codificación con algunos lenguajes de programación y algunas pruebas respectivas.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/img-banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/img-decor1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/img-decor2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/img-decor3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/img-decor4.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5'],
+        imagen: require('@/assets/curso/portada/flechas-blancas-vert.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-6'],
+        imagen: require('@/assets/curso/portada/equis-izq.svg'),
       },
     ],
   },
@@ -32,14 +49,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Lenguajes de programación de interfaz de usuario',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
+            titulo: 'HTML',
+            hash: 'html',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'CSS',
+            hash: 'css',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'JavaScript ',
+            hash: 'javascript',
           },
         ],
       },
@@ -48,15 +77,154 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Tecnologías de programación de interfaz de usuario',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Librerías del mercado ',
+            hash: 'librerias-del-mercado',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: '<em>Frameworks</em>',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Librerías del mercado ',
+            hash: 'Tipos y Características ',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Librerías',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Tipos y Características',
+            hash: 'tipos-y-características',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Codificación en lenguajes de programación',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: 'Nomenclatura',
+            hash: 'nomenclatura',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Protocolos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.1',
+            titulo: 'Tipos SOAP',
+            hash: 'tipos-soap',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.2',
+            titulo: 'XML - RPC',
+            hash: 'xml-rpc',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.3',
+            titulo: 'JSON - RPC',
+            hash: 'json-rpc',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema7',
+        icono: 'far fa-file-alt',
+        numero: '7',
+        titulo: 'Accesos ',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '7.1',
+            titulo: 'Get',
+            hash: 'get',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '7.2',
+            titulo: 'Post',
+            hash: 'post',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema8',
+        icono: 'far fa-file-alt',
+        numero: '8',
+        titulo: 'Estrategias DEVOPS',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema9',
+        icono: 'far fa-file-alt',
+        numero: '9',
+        titulo: 'Pruebas de servicio web',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '9.1',
+            titulo:
+              'Tipos y características de tecnologías para probar servicios',
+            hash:
+              'tipos-y-caracteristicas-de-tecnologias-para-probar-servicios',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '9.2',
+            titulo: 'Manejo de formatos de intercambio de información',
+            hash: 'manejo-de-formatos-de-intercambio-de-informacion',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema10',
+        icono: 'far fa-file-alt',
+        numero: '10',
+        titulo: 'IDES de desarrollo',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '10.1',
+            titulo: '10.1 DEBUG (Detección de errores)',
+            hash: 'debug-deteccion-de-errores',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,32 +269,123 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Principios SOLID',
+      referencia:
+        'Legorreta, N. (2021b,diciembre 12). <em>Principios SOLID: Qué son y para qué sirven - Nandy Legorreta.</em> Medium.',
+      tipo: 'Artículo',
+      link:
+        'https://medium.com/@nandy_x/principios-solid-que-son-y-para-que-sirven-1e4799daebf5#:~:text=Conclusi%C3%B3n,interfaces%20e%20Inyecci%C3%B3n%20de%20dependencias',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Patrones de diseño',
+      referencia:
+        '<em>Just a moment. . . (s. f.).</em> Recuperado 19 de octubre de 2022, de',
+      tipo: 'Artículo',
+      link: 'https://refactoring.guru/es',
+    },
+    {
+      tema: 'DevOps',
+      referencia:
+        'G, E. (2021, 14 diciembre). Qué es DevOps y por qué es tan Importante - DotTech. Medium.',
+      tipo: 'Artículo',
+      link:
+        'https://medium.com/dottech/qu%C3%A9-es-devops-y-por-qu%C3%A9-es-tan-importante-427fbfc81136',
+    },
+    {
+      tema: 'Spring boot',
+      referencia:
+        'Pulga, G. (2021, 14 diciembre). <em>Building a CRUD RESTful API/Web Service with Spring Boot.</em>',
+      tipo: 'Manual',
+      link:
+        'https://medium.com/swlh/building-a-crud-restful-api-web-service-with-spring-boot-a4f29edfbcd3',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'API',
+      significado:
+        'las API son mecanismos que permiten a dos componentes de software comunicarse entre sí mediante un conjunto de definiciones y protocolos.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Compilación',
+      significado:
+        'proceso de transformar un programa informático escrito en un lenguaje en un programa equivalente en otro formato.',
+    },
+    {
+      termino: 'Dirección IP',
+      significado:
+        'una dirección IP es una representación numérica del punto de Internet donde está conectado un dispositivo. Se usa para identificar dónde hay algo y, en cierto modo, qué es.',
+    },
+    {
+      termino: '<em>Endpoint</em>',
+      significado:
+        'es la URL de un API que responde a una petición. Punto final.',
+    },
+    {
+      termino: 'IDE',
+      significado:
+        'herramientas que  ayudan en la codificación de las aplicaciones, desde la edición del código, hasta compilación y ejecución de los programas que se realizan.',
+    },
+    {
+      termino: 'Librería',
+      significado:
+        'conjuntos de archivos de código que se utilizan para desarrollar <em>software</em>. Su objetivo es facilitar la programación al proporcionar funcionalidades comunes, que ya han sido resueltas previamente por otros programadores.',
+    },
+    {
+      termino: 'Máscara de red',
+      significado:
+        'combinación de <em>bits</em> que funcionan para delimitar una red de ordenadores y dividir esta red en subredes. Este código de números es usado para realizar correctamente el proceso de transferencia de mensajes entre dispositivos en la misma subred.',
+    },
+    {
+      termino: 'Palabra reservada',
+      significado:
+        'son identificadores reservados por un lenguaje de programación, para uso propio, que no pueden usarse como nombres de variables.',
+    },
+    {
+      termino: 'Pruebas unitarias',
+      significado:
+        'una prueba unitaria solo valida la unidad más pequeña de un proceso computacional. Eso podría significar una prueba de un solo método o un solo componente en una aplicación.',
+    },
+    {
+      termino: '<em>Refactoring</em>',
+      significado:
+        'proceso sistemático de mejora del código sin crear nuevas funcionalidades. La refactorización transforma el desorden en código limpio y diseño simple.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'Principios Solid. (2022). Recuperado de',
+      link: 'https://www.enmilocalfunciona.io/principios-solid/',
+    },
+    {
+      referencia: 'AWS (2022). Recuperado de:',
+      link: 'https://aws.amazon.com/es/what-is/restful-api/',
+    },
+    {
+      referencia: 'Node (2022). Recuperado de:',
+      link: 'https://nodejs.org/es/',
+    },
+    {
+      referencia: 'Avast (2022). Dirección IP. Recuperado de:',
+      link:
+        'https://www.avast.com/es-es/c-what-is-an-ip-address#:~:text=%C2%ABDirecci%C3%B3n%20IP%C2%BB%20significa%20%C2%ABdirecci%C3%B3n,red%20o%20dispositivo%20en%20Internet',
+    },
+    {
+      referencia: 'Medium (2022). DevOps. Recuperado de',
+      link:
+        'https://medium.com/dottech/qu%C3%A9-es-devops-y-por-qu%C3%A9-es-tan-importante-427fbfc81136',
+    },
+    {
+      referencia: 'Mozilla (2022). Compilación. Recuperado',
+      link: 'https://developer.mozilla.org/es/docs/Glossary/Compile',
+    },
+    {
+      referencia: 'Keepcoding (2022). Máscara de red. Recuperado de',
+      link: 'https://keepcoding.io/blog/que-es-una-mascara-de-red/',
+    },
+    {
+      referencia: 'Refactoring.guru (2022). Refactoring. Recuperado de:',
+      link: 'https://refactoring.guru/es',
     },
   ],
   creditos: {
