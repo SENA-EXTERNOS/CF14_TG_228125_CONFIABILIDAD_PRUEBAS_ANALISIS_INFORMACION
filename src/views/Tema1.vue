@@ -66,7 +66,7 @@
     .row.container.justify-content-around.align-items-center
 
         .row
-          .col-lg-6.color-izq-tarj-serv
+          .col-lg-6.color-izq-tarj-serv.p-1
               p.txt-der-tarj-serv.p-4 Otro concepto importante son los navegadores porque son los programas en donde van a correr las aplicaciones web. Un navegador es un programa encargado de interpretar el código que recibe desde el servidor y mostrarlo en algo entendible al usuario a través de la página web con texto, imágenes, etc.
 
           .col-lg-6.p-3.color-der-tarj-serv
@@ -560,63 +560,63 @@
       .row 
       
         .col-sm-4.col-xl-3.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                p Estos selectores se basan en la relación entre elementos y así seleccionan cuáles van a ser impactados por las reglas CSS codificadas.
+              .tarjeta-slide__contenido.p-3
+                p.txt-tarj-anim-tema1 Estos selectores se basan en la relación entre elementos y así seleccionan cuáles van a ser impactados por las reglas CSS codificadas.
                 
               .tarjeta-slide__img
-                .fondo-tarj-anim-tema1
+                .fondo-tarj1y3-anim-tema1
                   br
                   br
                   br
                   img(src="@/assets/curso/temas/img1-tarj-anim-tema1.png", alt="alt").img2-tarj-anim-tema1
         
         .col-sm-4.col-xl-3.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta.tarjeta-slide.arriba.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
-              .tarjeta-slide__contenido.p-4.p-xl-5
+              .tarjeta-slide__contenido.p-3
 
-                p El selector > aplicado en el código anterior indica que el elemento a ser afectado es el de la derecha del símbolo, pero siempre y cuando su elemento padre sea el de la izquierda. En otras palabras, se afectará al elemento p con el atributo <em>class</em> llamado parrafo1, pero siempre y cuando sea hijo de un elemento div.
+                p.txt-tarj-anim-tema1 El selector > aplicado en el código anterior indica que el elemento a ser afectado es el de la derecha del símbolo, pero siempre y cuando su elemento padre sea el de la izquierda. En otras palabras, se afectará al elemento p con el atributo <em>class</em> llamado parrafo1, pero siempre y cuando sea hijo de un elemento div.
               
               .tarjeta-slide__img
-                .fondo-tarj-anim-tema1
+                .fondo-tarj2y4-anim-tema1
                   br
                   br
                   br
                   img(src="@/assets/curso/temas/img2-tarj-anim-tema1.png", alt="alt").img2-tarj-anim-tema1
         
         .col-sm-4.col-xl-3.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                p El otro selector es el +y referencia que el elemento de la derecha será el impactado por las reglas de estilos siempre y cuando sea el inmediatamente precedido por el elemento de la izquierda.
-                p p.parrafo2 + p {
+              .tarjeta-slide__contenido.p-3
+                p.txt-tarj-anim-tema1 El otro selector es el +y referencia que el elemento de la derecha será el impactado por las reglas de estilos siempre y cuando sea el inmediatamente precedido por el elemento de la izquierda.
+                p.txt-tarj-anim-tema1 p.parrafo2 + p {
                   p font-size: 14px;
-                p }
+                p.txt-tarj-anim-tema1 }
 
           
               .tarjeta-slide__img
-                .fondo-tarj-anim-tema1
+                .fondo-tarj1y3-anim-tema1
                   br
                   br
                   br
                   img(src="@/assets/curso/temas/img3-tarj-anim-tema1.png", alt="alt").img2-tarj-anim-tema1
         
         .col-sm-4.col-xl-3.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta.tarjeta-slide.arriba.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
-              .tarjeta-slide__contenido.p-4.p-xl-5
+              .tarjeta-slide__contenido.p-3
 
-                p Según el párrafo anterior, el código expresado indica que se impactará un elemento p, siempre que sea el inmediatamente precedido por un elemento p con el atributo clase llamado parrafo2.
+                p.txt-tarj-anim-tema1 Según el párrafo anterior, el código expresado indica que se impactará un elemento p, siempre que sea el inmediatamente precedido por un elemento p con el atributo clase llamado parrafo2.
           
           
               .tarjeta-slide__img
-                .fondo-tarj-anim-tema1
+                .fondo-tarj2y4-anim-tema1
                   br
                   br
                   br

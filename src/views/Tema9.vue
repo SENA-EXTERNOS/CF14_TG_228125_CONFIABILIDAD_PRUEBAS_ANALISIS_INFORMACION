@@ -27,7 +27,7 @@
         .row 
 
           .col-lg-6.fondo-der-tarj1-tema9
-              p.txt-blanco-tarj1-tema9.p-3 Esquema Cliente-Servidor: existen algunas herramientas para probar y consumir servicios web de todos los tipos, mencionaremos las más usadas y populares.
+              p.txt-blanco-tarj1-tema9.text-bold.p-3 Esquema Cliente-Servidor: existen algunas herramientas para probar y consumir servicios web de todos los tipos, mencionaremos las más usadas y populares.
               p.txt2-tarj1-tema9 Posteriormente, tendrá la oportunidad de construir sus propios servicios web y consumirlos con algunas de las herramientas, incluso con su propio frontEnd que también construirá “desde cero”.
       
           .col-lg-6.fondo-izq-tarj1-tema9  

@@ -5,8 +5,8 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Librerías
- 
+      h1 Codificación en lenguajes de programación
+
       
     .row.container.justify-content-around.align-items-center
 
@@ -48,6 +48,8 @@
               figure
                 img(src='@/assets/curso/temas/img-java-tema5.png', alt='Texto que describa la imagen').img-java-tema5
 
+    br
+    br
     separador
     br            
 

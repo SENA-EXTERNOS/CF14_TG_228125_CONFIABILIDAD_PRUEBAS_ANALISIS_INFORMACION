@@ -9,8 +9,11 @@
  
       
     .row.container.justify-content-around.align-items-center
+        
+        
+        P Librerías existen un sinnúmero. Para gestionar fechas, para estilos CSS e interfaces gráficas (hablando respectivamente del frontend). Veamos algunas para desarrollo web:
 
-        .tarjeta.fondo-slider-tema4.p-4
+        .tarjeta.container.fondo-slider-tema4.p-4
           
           figure
               img(src='@/assets/curso/temas/img-fondo-slider-tema4.png', alt='Texto que describa la imagen').img-fondo-slider-tema4

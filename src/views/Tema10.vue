@@ -191,6 +191,8 @@
 
     .row.container.justify-content-around.align-items-center
         
+        h2 Laboratorio
+
         .row
           .col-lg-6.fondo-izq-tarj-lab-tema10
               figure

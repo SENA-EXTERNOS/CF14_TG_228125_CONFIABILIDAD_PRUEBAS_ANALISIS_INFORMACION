@@ -18,7 +18,7 @@
 
           .col-lg-7.fondo-izq-tarj1-tema8
 
-            p.txt-blanco-tarj1-tema8.p-3 Hoy en día, el término de DevOps es común en el mundo del desarrollo de software. Dev se refiere a los desarrolladores, quienes construyen la parte funcional del proyecto final; mientras que Ops se refiere a los procesos para el despliegue del software y la infraestructura ligada al desarrollo y dicho despliegue. En los proyectos actuales la infraestructura está relacionada con arquitecturas Cloud o en la nube.
+            p.txt-blanco-tarj1-tema8.text-bold.p-3 Hoy en día, el término de DevOps es común en el mundo del desarrollo de software. Dev se refiere a los desarrolladores, quienes construyen la parte funcional del proyecto final; mientras que Ops se refiere a los procesos para el despliegue del software y la infraestructura ligada al desarrollo y dicho despliegue. En los proyectos actuales la infraestructura está relacionada con arquitecturas Cloud o en la nube.
             p.txt-tarj1-tema8.p-3 DevOps no es un rol, es una metodología de trabajo que ayuda a la organización de los equipos de desarrollo de software, y no solo desarrolladores, sino todos los interesados en el proyecto que se esté desarrollando, para llevar a cabo la construcción de aplicaciones software de calidad. DevOps incluye metodologías ágiles como Scrum y una serie de buenas prácticas.
 
     br
