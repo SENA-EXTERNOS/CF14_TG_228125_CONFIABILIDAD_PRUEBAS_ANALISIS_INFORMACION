@@ -37,7 +37,7 @@
             p Veamos en el siguiente anexo algunas de las tecnologías para desarrollo web más populares.
             
             .col-lg-6.anexo-final-tema2
-              a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/Tecnologías para el desarrollo web.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto

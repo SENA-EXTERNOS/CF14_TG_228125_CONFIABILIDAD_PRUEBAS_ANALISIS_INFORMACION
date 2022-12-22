@@ -231,7 +231,7 @@
               p Y se debe anexar a la colección la fecha de registro del producto y fecha de actualización.
               p Veamos en el siguiente anexo, el paso a paso para construir por completo su aplicación web en el lado del backend.
               
-              a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/Paso a paso para construir su aplicación web.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto

@@ -229,7 +229,7 @@
 
         .row 
           .col-lg-6.anexo1-tema1
-              a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/Estructura del lenguaje HTML5.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -255,18 +255,19 @@
               p.txt-tarj-estruct.p-4 Esta parte es donde se genera todo lo visible del documento que será mostrado en el navegador y son las etiquetas que se codifican dentro de las body /body. HTML siempre ha tenido varias formas de organizar el cuerpo de su página, ofrece varias etiquetas. Una de las primeras fueron las etiquetas table, permitiendo diseñar la información de texto, imágenes, y demás, acomodada en filas y columnas.
               p.txt2-tarj-estruct Las primeras páginas web creadas en la historia usaban table para organizar todo su contenido y en ese momento fue una revolución su forma de distribuir los diferentes elementos informativos. A continuación, veamos con más detalle los diferentes elementos que componen la estructura HTML.
 
-        .row 
+        .row.anexo-struc-html 
           .col-lg-6
-              a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.anexo.mb-4(:href="obtenerLink('/downloads/Elementos que componen la estructura HTML.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
                   p Anexo.  diferentes elementos que componen la estructura HTML.
     
     br
-    br
-    br
 
+    separador
+    
+    
     .row.container.justify-content-around.align-items-center
 
 
@@ -632,7 +633,7 @@
             p Después de ver los conceptos básicos de cómo aplicar los estilos CSS a las páginas a través de los diferentes selectores, se va a proceder a crear una plantilla HTML básica y hacer una maquetación con estilos CSS externos.
             p Para esta aplicación se revisará lo que se llama modelo de caja tradicional, el cual ha sido implementado desde la primera versión de CSS y es soportado por todos los navegadores del mercado. Veamos en el siguiente documento anexo, un ejercicio de referencia para la creación de una plantilla:
             
-            a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('/downloads/plantilla.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -664,7 +665,7 @@
           p.txt-final-tema1 Como se mencionó anteriormente, "canvas" es un elemento de HTML, el cual permite realizar gráficos aplicando JavaScript. Para conocer más acerca de este tema, revisar el anexo CANVAS.
           
           .col-lg-6.anexo-final-tema1
-            a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('/downloads/canvas.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
