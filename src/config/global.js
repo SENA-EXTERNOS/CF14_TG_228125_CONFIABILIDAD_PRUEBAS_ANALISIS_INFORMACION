@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Confiabilidad, pruebas y análisis de la información',
     descripcionCurso:
-      'Este componente formativo está diseñado con el fin de que el estudiante adquiera los conocimientos sobre conceptos necesarios para en su formación tales como: <em>frameworks</em> y librerías para programación, algunas nociones de DevOps, herramientas para llevar a cabo la codificación con algunos lenguajes de programación y algunas pruebas respectivas.',
+      'El objetivo de este componente formativo, se fundamenta en que el aprendiz adquiera los conocimientos necesarios sobre conceptos que le ayudarán en su formación, tales como: frameworks y librerías para programación, algunas nociones de DevOps, herramientas para llevar a cabo la codificación con algunos lenguajes de programación y las pruebas respectivas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/img-banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -79,14 +79,6 @@ export default {
         numero: '2',
         titulo: 'Tecnologías de programación de interfaz de usuario',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Librerías del mercado ',
-            hash: 'librerias-del-mercado',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -94,14 +86,6 @@ export default {
         numero: '3',
         titulo: '<em>Frameworks</em>',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Librerías del mercado ',
-            hash: 'Tipos y Características ',
-          },
-        ],
       },
       {
         nombreRuta: 'tema4',
@@ -109,14 +93,6 @@ export default {
         numero: '4',
         titulo: 'Librerías',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: 'Tipos y Características',
-            hash: 'tipos-y-características',
-          },
-        ],
       },
       {
         nombreRuta: 'tema5',
@@ -124,14 +100,6 @@ export default {
         numero: '5',
         titulo: 'Codificación en lenguajes de programación',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'Nomenclatura',
-            hash: 'nomenclatura',
-          },
-        ],
       },
       {
         nombreRuta: 'tema6',
@@ -139,26 +107,6 @@ export default {
         numero: '6',
         titulo: 'Protocolos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.1',
-            titulo: 'Tipos SOAP',
-            hash: 'tipos-soap',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.2',
-            titulo: 'XML - RPC',
-            hash: 'xml-rpc',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.3',
-            titulo: 'JSON - RPC',
-            hash: 'json-rpc',
-          },
-        ],
       },
       {
         nombreRuta: 'tema7',
@@ -198,8 +146,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '9.1',
-            titulo:
-              'Tipos y características de tecnologías para probar servicios',
+            titulo: 'Herramientas para realizar pruebas de servicios web',
             hash:
               'tipos-y-caracteristicas-de-tecnologias-para-probar-servicios',
           },
@@ -217,14 +164,6 @@ export default {
         numero: '10',
         titulo: 'IDES de desarrollo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '10.1',
-            titulo: '10.1 DEBUG (Detección de errores)',
-            hash: 'debug-deteccion-de-errores',
-          },
-        ],
       },
     ],
     subMenu: [

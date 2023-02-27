@@ -2,31 +2,28 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
+
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span
           i.fas.fa-info
       h1 Introducción
 
-    .row.container.justify-content-around.align-items-center
 
-      .row.fondo-img-tar-introd
-          .col-lg-12
-          
-              p Aprendiz, reciba una cordial bienvenida al componente formativo Planificación de actividades para el mantenimiento de la infraestructura tecnológica. En la actualidad hay grandes avances en la tecnología, lo que ha permitido que equipos servidores que ocupaban un cuarto completo para procesar datos, ahora estén en espacios pequeños, y que a su vez puedan ofrecer varios “servicios” según sea el caso.
-              p ¡Muchos éxitos en esta nueva etapa!
+    p.mb-4 Estimado aprendiz, bienvenido al presente componente formativo con el que fortalecerá habilidades asociadas a los lenguajes de programación, conocerá algunas de las librerías y frameworks más usados en la actualidad y podrá aprender sobre algunos lenguajes de programación como Java y JavaScript, para explicar algunos conceptos de gran importancia como  la programación orientada a objeto y sus pilares fundamentales, las interfaces, las variables, constantes, métodos, nomenclaturas y sintaxis de estos lenguajes y pruebas funcionales. Además, se hablará de la filosofía de DevOps y sus buenas prácticas. Esperamos que esta ruta de aprendizaje sea de su agrado.
+    p.mb-5 En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo:
 
-    .row.tarjeta.tarjeta--blanca.p-2.p-md-3
 
+    .row.justify-content-center.mb-5
+      .col-lg
         figure
           .video
-            iframe(data-aos="zoom-out")(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 
-    
-    
+
+
 </template>
 
 <script>
