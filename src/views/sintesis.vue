@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p A continuación, encontrará información relevante sobre los aspectos frameworks y librerías para programación, algunas nociones de DevOps, herramientas para llevar a cabo la codificación con algunos lenguajes de programación y algunas pruebas respectivas.
+    p El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
 
 
     .row.justify-content-center

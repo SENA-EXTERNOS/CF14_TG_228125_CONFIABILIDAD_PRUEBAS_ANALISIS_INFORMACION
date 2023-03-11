@@ -22,9 +22,9 @@
         SlyderB.mb-5(:datos="datosSlyder")
 
 
-    h3.mb-4.mt-5
-      i.fas.fa-square.cac
-      | &nbsp;Get
+    #get
+    .titulo-segundo.color-acento-contenido
+      h2 7.1 Get
 
 
     p Obtiene o recupera el recurso proporcionado por el URI que se asigna en la línea de solicitud. Los métodos de obtención se utilizan para recuperar páginas web, imágenes o resultados de programas. Se puede enviar una cadena de consulta junto con la solicitud en el URI. Las consultas siempre comienzan con un signo de interrogación y deben estar codificadas en URL. No se envía ningún cuerpo de mensaje junto con una solicitud GET.
@@ -40,9 +40,12 @@
           img(data-aos="fade-right")(src='@/assets/curso/temas/t7/2.png', alt='Texto que describa la imagen')
 
 
-    h3.mb-4.mt-5
-      i.fas.fa-square.cac
-      | &nbsp;Post
+    separador
+
+    #post
+    .titulo-segundo.color-acento-contenido
+      h2 7.2 Post
+
 
     p Se utiliza para agregar o modificar un recurso, según el cuerpo del mensaje de la solicitud, en el host especificado en la URI de la solicitud. El cuerpo del mensaje contiene la información utilizada para crear o actualizar un recurso en el sitio web. Se usa a menudo para crear un recurso. Para actualizar es preferiblemente el uso de PUT.
 

@@ -114,6 +114,20 @@ export default {
         numero: '7',
         titulo: 'Accesos ',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '7.1',
+            titulo: 'Get',
+            hash: 'get',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '7.2',
+            titulo: 'Post',
+            hash: 'post',
+          },
+        ],
       },
       {
         nombreRuta: 'tema8',

@@ -8,79 +8,55 @@
       h1 Estrategias DEVOPS
 
 
-    .row.container.justify-content-around.align-items-center
-        .row
-          .col-lg-5.fondo-der-tarj1-tema8
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/t8/1.svg')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Hoy en día, el término de DevOps es común en el mundo del desarrollo de software. Dev se refiere a los desarrolladores, quienes construyen la parte funcional del proyecto final; mientras que Ops se refiere a los procesos para el despliegue del software y la infraestructura ligada al desarrollo y dicho despliegue. En los proyectos actuales la infraestructura está relacionada con arquitecturas Cloud o en la nube.
+        br
+        br
+        p DevOps no es un rol, es una metodología de trabajo que ayuda a la organización de los equipos de desarrollo de software, y no solo desarrolladores, sino todos los interesados en el proyecto que se esté desarrollando, para llevar a cabo la construcción de aplicaciones software de calidad. DevOps incluye metodologías ágiles como Scrum y una serie de buenas prácticas.
 
+
+    .bg1svg.my-5
+      .py-5
+        p Imagen: ciclo herramientas tecnológicas usadas en Devops.
+
+        .row.justify-content-center
+          .col-lg-7
             figure
-                img(data-aos="fade-right")(src='@/assets/curso/temas/img1-tema8.png', alt='Texto que describa la imagen').img-tarj1-tema8
+              img(src='@/assets/curso/temas/img-devops-tema8.png')
 
 
-          .col-lg-7.fondo-izq-tarj1-tema8
 
-            p.txt-blanco-tarj1-tema8.text-bold.p-3 Hoy en día, el término de DevOps es común en el mundo del desarrollo de software. Dev se refiere a los desarrolladores, quienes construyen la parte funcional del proyecto final; mientras que Ops se refiere a los procesos para el despliegue del software y la infraestructura ligada al desarrollo y dicho despliegue. En los proyectos actuales la infraestructura está relacionada con arquitecturas Cloud o en la nube.
-            p.txt-tarj1-tema8.p-3 DevOps no es un rol, es una metodología de trabajo que ayuda a la organización de los equipos de desarrollo de software, y no solo desarrolladores, sino todos los interesados en el proyecto que se esté desarrollando, para llevar a cabo la construcción de aplicaciones software de calidad. DevOps incluye metodologías ágiles como Scrum y una serie de buenas prácticas.
+    .row.align-items-center
+      .col-lg-8
+        .bloque-texto-f.pt-4.px-5.mb-5
+          .bloque-texto-f__comillas
+            i.fas.fa-quote-left
+            i.fas.fa-quote-right
 
-    br
-    br
-    br
+          p Medium (2022), nos brinda un par de conceptos, de forma bastante acertada:
 
-    .row.container.justify-content-around.align-items-center
+          p.mb-4 #[b Integración continua (CI):] “La CI, Integración Continua, #[i Continuous Integration], es la revisión que del código que se lleva a cabo cada vez que sube el código a los remotos (pushes al poder) y también cada vez que se abren #[i pull requests].”
 
-        .row.container
-          p.txt-devops-tema8.p-3 Imagen: ciclo herramientas tecnológicas usadas en Devops.
-
-          figure
-                img(src='@/assets/curso/temas/img-fondo-tarj2-tema8.png', alt='Texto que describa la imagen').img-fondo-tarj2-tema8
-
-          .col-lg-12
-
-              figure
-                img(src='@/assets/curso/temas/img-devops-tema8.png', alt='Texto que describa la imagen').img-devops-tema8
-
-    br
-    br
-    br
-    br
-    br
-
-    .row.container.justify-content-around.align-items-center
-
-        .row.container
-          .col-lg-8
-            .cuadro-texto-tema8
-            .bloque-texto-f.pt-4.px-5.mb-5
-              .bloque-texto-f__comillas
-                i.fas.fa-quote-left
-                i.fas.fa-quote-right
-              h4.text-regular.bloque-texto-f__texto Medium (2022), nos brinda un par de conceptos, de forma bastante acertada:
-                br
-                br
-                p Integración continua (CI): “La CI, Integración Continua, Continuous Integration, es la revisión que del código que se lleva a cabo cada vez que sube el código a los remotos (pushes al poder) y también cada vez que se abren pull requests.”
-                br
-                br
-                p Despliegue continuo (CD): “Continuos Deployment, CD o Despliegue Continuo consiste en que el código esté preparado en cualquier momento para ser desplegado.”
-                br
-                br
+          p #[b Despliegue continuo (CD):] “#[i Continuos Deployment], CD o Despliegue Continuo consiste en que el código esté preparado en cualquier momento para ser desplegado.”
 
 
-          .col-lg-4
-
-              figure
-                img(src='@/assets/curso/temas/img-final-tema8.png', alt='Texto que describa la imagen').img-final-tema8
-
-        .row
-          .col-lg-6.anexo-final-tema8
 
 
-    br
+      .col-lg-4
 
-    .row.container.justify-content-around.align-items-center
+          figure.d-none.d-lg-block
+            img(src='@/assets/curso/temas/img-final-tema8.png', alt='Texto que describa la imagen').img-final-tema8
 
-        .row
-          .col-lg-6.cajon-color-final
-            .cajon.color-acento-contenido.p-4
-              p La entrega y el despliegue continuo son dos términos vienen íntimamente ligados, expresado en uno solo como: CI/CD.
+
+
+    .row.justify-content-center.my-5
+      .col-lg-6
+        .cajon.color-acento-contenido.p-4
+          p La entrega y el despliegue continuo son dos términos vienen íntimamente ligados, expresado en uno solo como: CI/CD.
 
 
 
