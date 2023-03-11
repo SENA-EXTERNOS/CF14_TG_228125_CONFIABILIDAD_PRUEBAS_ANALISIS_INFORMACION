@@ -7,49 +7,42 @@
         span 2
       h1 Tecnologías de programación
 
-    
-    .row.container.justify-content-around.align-items-center
-      
-      p Cuando se habla de tecnologías de programación se refiere a los lenguajes de programación que se pueden utilizar para el desarrollo de software, así como las diferentes herramientas y frameworks que se pueden aplicar.
-      p Entre ellas podemos encontrar las siguientes:
 
-    .row.container.justify-content-around.align-items-center
-      figure
-          img(src='@/assets/curso/temas/img-fondo-slider-tema2.png', alt='Texto que describa la imagen').img-fondo-slider-tema2
 
-      
-    
-      SlyderB.mb-5(:datos="datosSlyder").bloque-slider1-tema2
-    
-    br
-    br
-    br
+    p Cuando se habla de tecnologías de programación se refiere a los lenguajes de programación que se pueden utilizar para el desarrollo de software, así como las diferentes herramientas y frameworks que se pueden aplicar.
 
-    .row.container.justify-content-around.align-items-center
+    p Entre ellas podemos encontrar las siguientes:
 
-        
-        .row 
-          .col-lg-8
-          
-            h3 Tecnologías del lado del servidor
-            
-            p Las tecnologías del lado del servidor o también llamadas backend son las que tienen como objetivo implementar los comportamientos que tendrá la web en el servidor, es decir, sus peticiones, cómo se tratan, cómo se consume la capa de datos, etc. 
-            p Veamos en el siguiente anexo algunas de las tecnologías para desarrollo web más populares.
-            
-            .col-lg-6.anexo-final-tema2
-              a.anexo.mb-4(:href="obtenerLink('/downloads/Tecnologías para el desarrollo web.pdf')" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/template/icono-pdf.svg")
-                .anexo__texto
-                  p Anexo. Tecnologías para desarrollo web.
 
-          .col-lg-4
-              figure
-                img(src='@/assets/curso/temas/img-final-tema2.png', alt='Texto que describa la imagen').img-final-tema2
+    .bg2.mb-5
+      .py-4
+        SlyderB.mb-5(:datos="datosSlyder")
 
-        
 
-    
+    h3.mb-4.mt-5
+      i.fas.fa-square.cac
+      | &nbsp;Tecnologías del lado del servidor
+
+    .row.align-items-center
+      .col-lg-8
+
+        p Las tecnologías del lado del servidor o también llamadas backend son las que tienen como objetivo implementar los comportamientos que tendrá la web en el servidor, es decir, sus peticiones, cómo se tratan, cómo se consume la capa de datos, etc.
+        p Veamos en el siguiente anexo algunas de las tecnologías para desarrollo web más populares.
+
+        .col-lg-6.anexo-final-tema2
+          a.anexo.mb-4(:href="obtenerLink('/downloads/Tecnologías para el desarrollo web.pdf')" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-pdf.svg")
+            .anexo__texto
+              p Anexo. Tecnologías para desarrollo web.
+
+      .col-lg-4
+          figure
+            img(src='@/assets/curso/temas/img-final-tema2.png', alt='Texto que describa la imagen')
+
+
+
+
 
 </template>
 

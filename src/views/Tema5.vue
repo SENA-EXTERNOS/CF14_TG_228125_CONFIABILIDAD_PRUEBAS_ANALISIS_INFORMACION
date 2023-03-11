@@ -7,71 +7,67 @@
         span 5
       h1 Codificación en lenguajes de programación
 
-      
-    .row.container.justify-content-around.align-items-center
 
-        .row 
-          .col-lg-5.fondo--izq-tarj1-tema5
-              figure
-                img(data-aos="flip-down")(src='@/assets/curso/temas/img1-tema5.png', alt='Texto que describa la imagen').img1-tema5
 
-          .col-lg-7.fondo--der-tarj1-tema5(data-aos="flip-down").p-3
-              p.txt-tarj1-tema5 La programación orientada es un paradigma de programación, que toma todo lo que está en el mundo circundante y lo mira como un objeto. 
-              p.txt-tarj1-tema5 Existen cuatro principales pilares para que algo se considere orientado a Objetos:
-              ul.lista-ul.txt-tarj1-tema5
-                li 
-                  i.lista-ul__vineta
-                  | Abstracción.
-                li 
-                  i.lista-ul__vineta
-                  | Polimorfismo.
-                li 
-                  i.lista-ul__vineta
-                  | Encapsulamiento.
-                li 
-                  i.lista-ul__vineta
-                  | Herencia.
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/t5/1.svg')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p La programación orientada es un paradigma de programación, que toma todo lo que está en el mundo circundante y lo mira como un objeto.
 
-    br
-    br
+        p Existen cuatro principales pilares para que algo se considere orientado a objetos:
 
-    .row.container.justify-content-around.align-items-center
+        ul.lista-ul.mt-4
+          li
+            i.lista-ul__vineta
+            | Abstracción.
+          li
+            i.lista-ul__vineta
+            | Polimorfismo.
+          li
+            i.lista-ul__vineta
+            | Encapsulamiento.
+          li
+            i.lista-ul__vineta
+            | Herencia.
 
-      .row
-          
-          figure
-              img(src='@/assets/curso/temas/img-fondo-tarj2-tema5.png', alt='Texto que describa la imagen').img-fondo-tarj2-tema5
 
-          .col-lg-12
-              p.txt-java-tema5.p-4 El lenguaje de programación Java actualmente es propiedad del gigante de Oracle. Es, por excelencia, orientado a objetos y permite crear cualquier tipo de aplicación.
-              
-              figure
-                img(src='@/assets/curso/temas/img-java-tema5.png', alt='Texto que describa la imagen').img-java-tema5
+    .bg1.my-5
+      .py-4
 
-    br
-    br
-    separador
-    br            
+        p.my-5 El lenguaje de programación Java actualmente es propiedad del gigante de Oracle. Es, por excelencia, orientado a objetos y permite crear cualquier tipo de aplicación.
 
-    .row.container.justify-content-around.align-items-center
-        
-        #nomenclatura
-        .titulo-segundo.color-acento-contenido
-          h2 5.1  Nomenclatura
+        .row.justify-content-center
+          .col-lg-4
+            figure
+              img(src='@/assets/curso/temas/img-java-tema5.png', alt='Texto que describa la imagen')
 
-        .row
-          .col-lg-10.bloque-cajon-color-tema5
+
+
+    .bg5.my-5
+
+      h3.mb-4.mt-5
+        i.fas.fa-square.cac
+        | &nbsp;Nomenclatura
+
+      .py-4
+        .row.justify-content-center
+          .col-lg-10
             .cajon.color-acento-botones.p-4
               p Java utiliza camelCase para el nombramiento de sus clases, interfaces, métodos y variables. CamelCase es una nomenclatura o forma de escribir nombres, cabe destacar que esta nomenclatura no es obligatoria, pero es una forma de organizar su código y trabajar con buenas prácticas de programación en Java. Dicha nomenclatura puede variar dependiendo del lenguaje de programación con el que se trabaje, no es la misma para todos-Veamos en el siguiente anexo algunos ejemplos:
-            
-            .col-lg-6.anexo-tema5
+
+          .row.justify-content-center.my-4
+            .col-lg-6
               a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p Enlace web. Ejemplos nomenclatura
-       
-       
+                  p #[b Enlace web]. Ejemplos nomenclatura
+
+    br
+    br
+
 </template>
 
 <script>

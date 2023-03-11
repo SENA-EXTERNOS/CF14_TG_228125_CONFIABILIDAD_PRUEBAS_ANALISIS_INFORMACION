@@ -5,13 +5,13 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 8
-      h1 Estrategias DEVOPS 
- 
-      
+      h1 Estrategias DEVOPS
+
+
     .row.container.justify-content-around.align-items-center
-        .row 
+        .row
           .col-lg-5.fondo-der-tarj1-tema8
-        
+
             figure
                 img(data-aos="fade-right")(src='@/assets/curso/temas/img1-tema8.png', alt='Texto que describa la imagen').img-tarj1-tema8
 
@@ -29,12 +29,12 @@
 
         .row.container
           p.txt-devops-tema8.p-3 Imagen: ciclo herramientas tecnológicas usadas en Devops.
-        
+
           figure
                 img(src='@/assets/curso/temas/img-fondo-tarj2-tema8.png', alt='Texto que describa la imagen').img-fondo-tarj2-tema8
 
           .col-lg-12
-              
+
               figure
                 img(src='@/assets/curso/temas/img-devops-tema8.png', alt='Texto que describa la imagen').img-devops-tema8
 
@@ -43,7 +43,7 @@
     br
     br
     br
-    
+
     .row.container.justify-content-around.align-items-center
 
         .row.container
@@ -62,31 +62,27 @@
                 p Despliegue continuo (CD): “Continuos Deployment, CD o Despliegue Continuo consiste en que el código esté preparado en cualquier momento para ser desplegado.”
                 br
                 br
-                p Se puede revisar el siguiente enlace para más detalle: 
+
 
           .col-lg-4
-              
+
               figure
                 img(src='@/assets/curso/temas/img-final-tema8.png', alt='Texto que describa la imagen').img-final-tema8
 
         .row
           .col-lg-6.anexo-final-tema8
-            a.anexo.mb-4.mb-lg-0(href="https://medium.com/dottech/qu%C3%A9-es-devops-y-por-qu%C3%A9-es-tan-importante-427fbfc81136" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-link.svg")
-              .anexo__texto
-                p Enlace web. https://medium.com/dottech/qu%C3%A9-es-devops-y-por-qu%C3%A9-es-tan-importante-427fbfc81136
+
 
     br
 
     .row.container.justify-content-around.align-items-center
-        
-        .row 
+
+        .row
           .col-lg-6.cajon-color-final
             .cajon.color-acento-contenido.p-4
               p La entrega y el despliegue continuo son dos términos vienen íntimamente ligados, expresado en uno solo como: CI/CD.
-              
-              
+
+
 
 
 </template>
