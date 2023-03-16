@@ -59,7 +59,7 @@
 
           .row.justify-content-center.my-4
             .col-lg-6
-              a.anexo.mb-4.mb-lg-0(href="/downloads/Ejemplos_nomenclatura.pdf" target="_blank")
+              a.anexo.mb-4.mb-lg-0(:href="obtenerLink('/downloads/Ejemplos_nomenclatura.pdf')" target="_blank" type="application/pdf")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto

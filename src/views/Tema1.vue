@@ -19,25 +19,25 @@
         .col-lg-8
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta fondo-acord-tema1")
 
-            .row(titulo="HTTP:")
+            .row(titulo="HTTP")
               .col-12
                 p.txt-acord-tema1.mb-0 Es el protocolo de transferencia de hipertexto y es la base que permite la comunicación entre los dispositivos conectados en la red, por ejemplo, entre computadores de usuarios y servidores.
 
-            .row(titulo="URL:")
+            .row(titulo="URL")
               .col-12
                 p.txt-acord-tema1.mb-0 Es el localizador de recursos uniforme, es la más conocida como la dirección de un sitio web; es la forma como llamamos a un sitio en algún punto de la red, a través de su nombre.
 
-            .row(titulo="HTML:")
+            .row(titulo="HTML")
               .col-12
                 p.txt-acord-tema1.mb-0 Lenguaje de marcado de hipertexto, es el que permite escribir la estructura de una página web, dando recursos de maquetación como listas, párrafos, viñetas, etc.
 
-            .row(titulo="Servidor web HTTP:")
+            .row(titulo="Servidor web HTTP")
               .col-12
                 p.txt-acord-tema1.mb-0 Es el programa que se encarga de gestionar las peticiones con los navegadores, tanto de recibirlas como de responderlas.
 
-            .row(titulo="Alojamiento web:")
+            .row(titulo="Alojamiento web")
               .col-12
-                p.txt-acord-tema1.mb-0 Es a lo que se llama hosting y es un equipo conectado a la red el cual tiene una configuración específica y una serie de programas instalados, entre ellos un servidor web.
+                p.txt-acord-tema1.mb-0 Es a lo que se llama <em>hosting</em> y es un equipo conectado a la red el cual tiene una configuración específica y una serie de programas instalados, entre ellos un servidor web.
 
 
 
@@ -101,10 +101,10 @@
               ul.lista-ul
                 li
                   i.lista-ul__vineta
-                  | POST
+                  | POST.
                 li
                   i.lista-ul__vineta
-                  | GET
+                  | GET.
 
               p La petición GET es cuando se hace una solicitud al servidor y se envía la información solicitada a través de la URL como lo hace Google. Por otra parte, la petición POST es una petición donde se envían los datos ocultos a través de un objeto que será descifrado por el servidor y así se tiene seguridad de la información.
 
@@ -126,7 +126,7 @@
                   | 200: La petición solicitada se encuentra con éxito.
                 li
                   i.lista-ul__vineta
-                  | 403: No se tiene permiso para acceder al recurso solicitado
+                  | 403: No se tiene permiso para acceder al recurso solicitado.
                 li
                   i.lista-ul__vineta
                   | 404: El recurso solicitado no está disponible o no se pudo encontrar.
@@ -154,9 +154,6 @@
       h2 1.1 HTML
 
     p HTML 5 mejora la versión de HTML, de acuerdo con el avance en las API y en el conjunto de herramientas que conforman la tecnología web; pero aparte de esto, presenta nuevas características en el lenguaje HTML y esto se va a describir a continuación.
-
-
-    p.mb-5 Algunas características nuevas de HTML5 son:
 
     TabsC.color-primario.mb-4
       .py-3.py-md-4(titulo="Semántica")
@@ -186,7 +183,7 @@
             p Es una API para abrir una sesión de manera bidireccional entre usuario y servidor, permitiendo el envío de peticiones por eventos sin tener que estar testeando el servidor en cada llamada.
 
             h4 #[em Server-send events]
-            p Esta función se agrega cuando se necesita que la aplicación web transmita eventos desde el servidor al frontend del cliente, se hace una conexión unidireccional, es decir, el cliente no podrá responder al servidor.
+            p Esta función se agrega cuando se necesita que la aplicación web transmita eventos desde el servidor al <em>Front End</em> del cliente, se hace una conexión unidireccional, es decir, el cliente no podrá responder al servidor.
 
             h4 WebRTC
             p WebRTC #[em (Web Real-Time Communication)] es una tecnología que permite a las aplicaciones y sitios web capturar y, opcionalmente, transmitir audio y/o video, así como intercambiar datos arbitrarios entre navegadores sin necesidad de un intermediario. El conjunto de estándares que componen WebRTC hace posible compartir datos y realizar teleconferencias #[em peer-to-peer] sin requerir que el usuario instale complementos o cualquier otro #[em software] de terceros.  (MDN, 2019)
@@ -204,12 +201,12 @@
 
     .row.justify-content-center
       .col-auto
-        a.anexo(href="/downloads/Estructura_del_lenguaje_HTML5.pdf" target="_blank")
+        a.anexo(:href="obtenerLink('/downloads/Estructura_del_lenguaje_HTML5.pdf')" target="_blank" type="application/pdf")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p Anexo. Estructura del lenguaje HTML5
-
+            
     h3.mb-4.mt-5
       i.fas.fa-square.cac
       | &nbsp;Estructura del Cuerpo
@@ -230,7 +227,7 @@
 
         .row.justify-content-center
           .col-auto
-            a.anexo(href="/downloads/Elementos_que_componen_la_estructura_HTML.pdf" target="_blank")
+            a.anexo(:href="obtenerLink('/downloads/Elementos_que_componen_la_estructura_HTML.pdf')" target="_blank" type="application/pdf")            
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -287,7 +284,7 @@
 
 
     .cajon.color-acento-botones.p-4.mb-5
-      p Al observar la imagen anterior se ve la etiqueta link de HTML que es la que permite relacionar el archivo externo de CSS a través de su propiedad href. href solicita la URL donde se encuentra el archivo externo a relacionar; se debe tener presente que esa dirección debe estar dentro de la carpeta de proyecto para que no se presente ningún error al momento de subir el proyecto al hosting. Con los conceptos anteriores ya se pueden empezar a ver los estilos CSS y a hacer ejemplo de maquetación de páginas.
+      p Al observar la imagen anterior se ve la etiqueta link de HTML que es la que permite relacionar el archivo externo de CSS a través de su propiedad href. href solicita la URL donde se encuentra el archivo externo a relacionar; se debe tener presente que esa dirección debe estar dentro de la carpeta de proyecto para que no se presente ningún error al momento de subir el proyecto al <em>hosting</em>. Con los conceptos anteriores ya se pueden empezar a ver los estilos CSS y a hacer ejemplo de maquetación de páginas.
 
 
 
@@ -474,7 +471,7 @@
 
             .row.justify-content-center.my-4
               .col-auto
-                a.anexo(href="/downloads/plantilla.pdf" target="_blank").bg_cac
+                a.anexo(:href="obtenerLink('/downloads/plantilla.pdf')" target="_blank" type="application/pdf")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
@@ -503,7 +500,7 @@
 
     .row.justify-content-center.my-4
       .col-auto
-        a.anexo(href="/downloads/canvas.pdf" target="_blank")
+        a.anexo(:href="obtenerLink('/downloads/canvas.pdf')" target="_blank" type="application/pdf")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

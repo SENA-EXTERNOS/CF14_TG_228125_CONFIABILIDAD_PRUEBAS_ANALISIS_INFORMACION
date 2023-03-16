@@ -26,7 +26,7 @@
     .row.align-items-center
       .col-lg-8
 
-        p Las tecnologías del lado del servidor o también llamadas backend son las que tienen como objetivo implementar los comportamientos que tendrá la web en el servidor, es decir, sus peticiones, cómo se tratan, cómo se consume la capa de datos, etc.
+        p Las tecnologías del lado del servidor o también llamadas <em>Back End</em> son las que tienen como objetivo implementar los comportamientos que tendrá la web en el servidor, es decir, sus peticiones, cómo se tratan, cómo se consume la capa de datos, etc.
         p Veamos en el siguiente anexo algunas de las tecnologías para desarrollo web más populares.
 
         .col-lg-6.anexo-final-tema2
@@ -64,7 +64,7 @@ export default {
       {
         titulo: 'HTML',
         texto:
-          'Es el lenguaje de marca o etiquetas utilizado para la creación de sitios web. Con HTML se realiza la estructura del sitio, su maquetación a través de etiquetas que permiten la organización de contenido. HTML permite a los desarrolladores frontend describir, estructurar o maquetar el contenido del sitio web, como es su información a través de párrafos, imágenes, listas, tablas, barras de menú, etc.',
+          'Es el lenguaje de marca o etiquetas utilizado para la creación de sitios web. Con HTML se realiza la estructura del sitio, su maquetación a través de etiquetas que permiten la organización de contenido. HTML permite a los desarrolladores <em>Front End</em> describir, estructurar o maquetar el contenido del sitio web, como es su información a través de párrafos, imágenes, listas, tablas, barras de menú, etc.',
         imagen: require('@/assets/curso/temas/img2-slider1-tema2.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

@@ -14,7 +14,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/t3/1.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Para empezar, hay que aclarar que los lenguajes de programación son aquellos que con su sintaxis pueden escribir líneas de códigos que planteen un algoritmo; su principal uso es crear aplicaciones #[em software] para distintos propósitos: escritorio, web, móvil, etc.  Con un lenguaje de programación se pueden crear librerías y reutilizar una o varias funcionalidades en los diferentes proyectos que se requiera. Con un buen conjunto de librerías, buenas prácticas e incluso patrones de diseño, se pueden crear frameworks que aceleran la construcción de un producto #[em software]. El término de framework (marco de trabajo), en general, es algo que indica #[b qué] hacer, pero no el #[b cómo], así que es posible adaptarlo según la necesidad y definir el cómo.
+        p.mb-0 Para empezar, hay que aclarar que los lenguajes de programación son aquellos que con su sintaxis pueden escribir líneas de códigos que planteen un algoritmo; su principal uso es crear aplicaciones #[em software] para distintos propósitos: escritorio, web, móvil, etc.  Con un lenguaje de programación se pueden crear librerías y reutilizar una o varias funcionalidades en los diferentes proyectos que se requiera. Con un buen conjunto de librerías, buenas prácticas e incluso patrones de diseño, se pueden crear <em>frameworks</em> que aceleran la construcción de un producto #[em software]. El término de framework (marco de trabajo), en general, es algo que indica #[b qué] hacer, pero no el #[b cómo], así que es posible adaptarlo según la necesidad y definir el cómo.
 
 
 
@@ -46,7 +46,7 @@
           .col-md-6.mb-4.mb-md-0
             .txt-slider-tema3
               h4 Spring Boot
-              p Es un <em>framework</em> para el desarrollo de aplicaciones web robustas del lado del servidor (backend). Usa principalmente el lenguaje de programación Java; a este están ligados diferentes conceptos, y para su entendimiento, se requiere de una curva de aprendizaje relativamente alta.
+              p Es un <em>framework</em> para el desarrollo de aplicaciones web robustas del lado del servidor (<em>Back End</em>). Usa principalmente el lenguaje de programación Java; a este están ligados diferentes conceptos, y para su entendimiento, se requiere de una curva de aprendizaje relativamente alta.
 
           .col-md-6
             figure
@@ -59,7 +59,7 @@
           .col-md-6.mb-4.mb-md-0
             .txt-slider-tema3
               h4 Angular
-              p Su propósito principal es trabajar en la capa de frontend, crear interfaces gráficas de usuario y conectarlas con un backend. Es propiedad de Google. Inicialmente se creó la versión 1 (AngularJS), que se podría considerar una librería de Javascript. Luego emergió Angular 2 con el lenguaje de programación Typescript, después la versión 3 y así sucesivamente; y hoy se llama Angular.
+              p Su propósito principal es trabajar en la capa de <em>Front End</em>, crear interfaces gráficas de usuario y conectarlas con un <em>Back End</em>. Es propiedad de Google. Inicialmente se creó la versión 1 (AngularJS), que se podría considerar una librería de Javascript. Luego emergió Angular 2 con el lenguaje de programación Typescript, después la versión 3 y así sucesivamente; y hoy se llama Angular.
 
           .col-md-6
             figure

@@ -11,7 +11,7 @@
     .row.align-items-center.mb-5
       .col-lg-8
           p Herramientas para realizar pruebas de servicios web.
-          p En la construcción de aplicaciones web con la arquitectura cliente servidor, donde están las capas separadas, normalmente se recomienda construir primero la capa del backend, luego se realiza la documentación de los servicios creados, con algunas herramientas (una muy popular es Swagger, con estándares como Open API). Una vez se tiene esta documentación, se procede a crear el frontend y consumir los servicios presentados. Una manera de probarlos antes de empezar a crear nuestro frontend, es usar herramientas como las que mencionaremos.
+          p En la construcción de aplicaciones web con la arquitectura cliente servidor, donde están las capas separadas, normalmente se recomienda construir primero la capa del <em>Back End</em>, luego se realiza la documentación de los servicios creados, con algunas herramientas (una muy popular es Swagger, con estándares como Open API). Una vez se tiene esta documentación, se procede a crear el <em>Front End</em> y consumir los servicios presentados. Una manera de probarlos antes de empezar a crear nuestro <em>Front End</em>, es usar herramientas como las que mencionaremos.
 
       .col-lg-4
           figure
@@ -23,7 +23,7 @@
 
       .col-lg-6.fondo-der-tarj1-tema9
           p.txt-blanco-tarj1-tema9.text-bold.p-3 Esquema Cliente-Servidor: existen algunas herramientas para probar y consumir servicios web de todos los tipos, mencionaremos las más usadas y populares.
-          p.txt2-tarj1-tema9 Posteriormente, tendrá la oportunidad de construir sus propios servicios web y consumirlos con algunas de las herramientas, incluso con su propio frontEnd que también construirá “desde cero”.
+          p.txt2-tarj1-tema9 Posteriormente, tendrá la oportunidad de construir sus propios servicios web y consumirlos con algunas de las herramientas, incluso con su propio <em>Front End</em> que también construirá “desde cero”.
 
       .col-lg-6.fondo-izq-tarj1-tema9
           figure

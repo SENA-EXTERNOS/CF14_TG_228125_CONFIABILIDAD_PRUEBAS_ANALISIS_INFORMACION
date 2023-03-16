@@ -199,7 +199,7 @@
           p.text-bold La entrega y el despliegue continuo son dos términos que vienen íntimamente ligados, expresado en uno solo como: CI/CD.
 
 
-    p Para esta ocasión realizarán, lo que se llama famosamente: CRUD, que son las siglas de Create, Read, Update, Delete. Van a tener una colección (en bases de datos relacionales, tabla) de productos de aseo y van a gestionarlos. Crearán un producto, lo consultarán por el ID del producto, lo actualizarán y lo borrarán. Para las pruebas del CRUD, usarán Postman para probar los servicios del API REST.
+    p Para esta ocasión realizarán, lo que se llama famosamente: CRUD, que son las siglas de <i>Create, Read, Update, Delete</i>. Van a tener una colección (en bases de datos relacionales, tabla) de productos de aseo y van a gestionarlos. Crearán un producto, lo consultarán por el ID del producto, lo actualizarán y lo borrarán. Para las pruebas del CRUD, usarán Postman para probar los servicios del API REST.
 
 
     .row.my-5
@@ -220,7 +220,7 @@
             | Descripción.
 
         p Y se debe anexar a la colección la fecha de registro del producto y fecha de actualización.
-        p Veamos en el siguiente anexo, el paso a paso para construir por completo su aplicación web en el lado del backend.
+        p Veamos en el siguiente anexo, el paso a paso para construir por completo su aplicación web en el lado del <em>Back End</em>.
 
         a.anexo.mb-4(:href="obtenerLink('/downloads/pasos_construir_aplicacion_web.pdf')" target="_blank")
           .anexo__icono
@@ -236,12 +236,12 @@
 
 
 
-    p.my-5 DevOps es una cultura cada vez más usada en los equipos de desarrollo de software para construir aplicaciones de calidad.
+    p.my-5 DevOps es una cultura cada vez más usada en los equipos de desarrollo de <i>software</i> para construir aplicaciones de calidad.
 
     .row.justify-content-center
       .col-lg-10
         figure
-          img(src='@/assets/curso/temas/img-final-tema10.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/img-final-tema10.svg', alt='Texto que describa la imagen')
 
 
     .row.justify-content-center.my-5

@@ -8,7 +8,7 @@
       h1 Librerías
 
 
-    p Librerías existen un sinnúmero. Para gestionar fechas, para estilos CSS e interfaces gráficas (hablando respectivamente del frontend). Veamos algunas para desarrollo web:
+    p Librerías existen un sinnúmero. Para gestionar fechas, para estilos CSS e interfaces gráficas (hablando respectivamente del <em>Front End</em>). Veamos algunas para desarrollo web:
 
 
     .slyderB_bg_04.p-5.mb-5
@@ -46,7 +46,8 @@
 
           .col-md-6.mb-4.mb-md-0
             h4 ReactJS
-            p Esta librería está orientada principalmente al frontend, para la construcción de interfaces gráficas de usuario. Es propiedad de Facebook. Su web oficial está en:
+            p Esta librería está orientada principalmente al <em>Front End</em>, para la construcción de interfaces gráficas de usuario. Es propiedad de Facebook. Su web oficial está en: 
+              a(href="https://reactjs.org/" target="_blank") https://reactjs.org/ 
 
 </template>
 
