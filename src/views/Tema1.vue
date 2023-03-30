@@ -493,7 +493,7 @@
       .col-lg
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/gtt2UqZnUJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
     p Como se mencionó anteriormente, #[code &lt;canvas&gt;] es un elemento de HTML, el cual permite realizar gráficos aplicando JavaScript. Para conocer más acerca de este tema, revisar el anexo CANVAS.
