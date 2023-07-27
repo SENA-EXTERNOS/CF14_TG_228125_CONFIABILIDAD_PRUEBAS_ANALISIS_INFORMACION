@@ -52,9 +52,9 @@
 
     .slyderB_bg_01.p-5.mb-5
       SlyderA(tipo="b")
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-start
 
-          .col-md-6.mb-4.mb-md-0
+          .col-md-4.mb-4.mb-md-0
             p El método POST suele usarse también cuando se envía información mediante formularios. Normalmente, la petición realizada es de este tipo. Cuando se hace clic en el botón de “ingresar” se enviará una petición POST (en este caso), con esta información. En el inspector del navegador (opción “red”) se puede observar.
 
           .col-md-6
@@ -63,9 +63,9 @@
               //figcaption Leyenda de la imagen
 
 
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-start
 
-          .col-md-6.mb-4.mb-md-0
+          .col-md-4.mb-4.mb-md-0
             p En esta imagen se puede ver que a la URL descrita de <em>login</em>, se le envió una petición post.
           .col-md-6
             figure
@@ -73,13 +73,13 @@
               //figcaption Leyenda de la imagen
 
 
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-start
 
-          .col-md-6.mb-4.mb-md-0
+          .col-md-4.mb-4.mb-md-0
             p En esta imagen, se puede ver la información que se envió por el formulario.
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/img3-slider2-tema7.png')
+              img(src='@/assets/curso/temas/1.png')
               //figcaption Leyenda de la imagen
 
     .row.my-5.justify-content-center
