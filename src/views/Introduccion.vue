@@ -10,7 +10,7 @@
       h1 Introducción
 
 
-    p.mb-4 Estimado aprendiz, bienvenido al presente componente formativo con el que fortalecerá habilidades asociadas a los lenguajes de programación, conocerá algunas de las librerías y frameworks más usados en la actualidad y podrá aprender sobre algunos lenguajes de programación como Java y JavaScript, para explicar algunos conceptos de gran importancia como  la programación orientada a objeto y sus pilares fundamentales, las interfaces, las variables, constantes, métodos, nomenclaturas y sintaxis de estos lenguajes y pruebas funcionales. Además, se hablará de la filosofía de DevOps y sus buenas prácticas. Esperamos que esta ruta de aprendizaje sea de su agrado.
+    p.mb-4 Estimado aprendiz, bienvenido al presente componente formativo con el que fortalecerá habilidades asociadas a los lenguajes de programación, conocerá algunas de las librerías y #[i frameworks] más usados en la actualidad y podrá aprender sobre algunos lenguajes de programación como Java y JavaScript, para explicar algunos conceptos de gran importancia como  la programación orientada a objeto y sus pilares fundamentales, las interfaces, las variables, constantes, métodos, nomenclaturas y sintaxis de estos lenguajes y pruebas funcionales. Además, se hablará de la filosofía de #[i DevOps] y sus buenas prácticas. Esperamos que esta ruta de aprendizaje sea de su agrado.
     p.mb-5 En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo:
 
 

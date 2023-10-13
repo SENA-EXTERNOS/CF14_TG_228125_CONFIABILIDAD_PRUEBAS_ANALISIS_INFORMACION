@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Confiabilidad, pruebas y análisis de la información',
     descripcionCurso:
-      'El objetivo de este componente formativo, se fundamenta en que el aprendiz adquiera los conocimientos necesarios sobre conceptos que le ayudarán en su formación, tales como: frameworks y librerías para programación, algunas nociones de DevOps, herramientas para llevar a cabo la codificación con algunos lenguajes de programación y las pruebas respectivas.',
+      'El objetivo de este componente formativo, se fundamenta en que el aprendiz adquiera los conocimientos necesarios sobre conceptos que le ayudarán en su formación, tales como: <i>frameworks</i> y librerías para programación, algunas nociones de <i>DevOps</i>, herramientas para llevar a cabo la codificación con algunos lenguajes de programación y las pruebas respectivas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/img-banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -56,13 +56,13 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.1',
+            numero: '1.2',
             titulo: 'CSS',
             hash: 'css',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.1',
+            numero: '1.3',
             titulo: 'JavaScript ',
             hash: 'javascript',
           },
@@ -158,7 +158,7 @@ export default {
         nombreRuta: 'tema10',
         icono: 'far fa-file-alt',
         numero: '10',
-        titulo: 'IDES de desarrollo',
+        titulo: 'IDEs de desarrollo',
         desarrolloContenidos: true,
       },
     ],

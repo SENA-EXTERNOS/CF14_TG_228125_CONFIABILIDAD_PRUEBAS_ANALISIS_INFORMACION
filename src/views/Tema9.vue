@@ -36,7 +36,7 @@
 
     #tipos-y-caracteristicas-de-tecnologias-para-probar-servicios
     .titulo-segundo.color-acento-contenido
-      h2 9.1 Tipos y características de tecnologías para probar servicios
+      h2 9.1 Herramientas para realizar pruebas de servicios web
 
 
     p Para ampliar la información descrita anteriormente, veamos lo siguiente:
@@ -113,6 +113,9 @@
                 p.txt-pestanas-tema9 Lenguaje de marcado utilizado para estructurar el texto en las páginas web. Hay que tener en cuenta que HTML proporciona estructura a las páginas web, pero no estilo. Por ejemplo, HTML marca qué partes de la página texto son el título, encabezados, párrafos, etc., para que puedan ser representados apropiadamente por un navegador web. ¡Ojo! No es un lenguaje de programación.
 
               .col-md-6
+                .titulo-sexto.color-acento-contenido
+                  h5 Figura 20.
+                  span.fst-italic Formato de HTML               
                 figure
                   img(src='@/assets/curso/temas/img-pestanas-tema9.png', alt='Texto que describa la imagen').img-pestanas-tema9
                   //figcaption Leyenda de la imagen
@@ -124,6 +127,9 @@
                 p.txt-pestanas-tema9 Al igual que HTML, es un lenguaje de marcado para almacenar y transportar datos. XML es legible tanto por máquina como por humanos, generalmente se usa para enviar datos estructurados dentro de un sistema basado en la web.
 
               .col-md-6.mb-4.mb-md-0
+                .titulo-sexto.color-acento-contenido
+                  h5 Figura 21.
+                  span.fst-italic Formato de XML               
                 figure
                   img(src='@/assets/curso/temas/img2-pestanas-tema9.png', alt='Texto que describa la imagen').img-pestanas-tema9
                   //figcaption Leyenda de la imagen
@@ -132,11 +138,14 @@
           .py-3.py-md-4(titulo="<em>JSON (JavaScript Object Notation)</em>")
             .row
 
-              .col-md-6
+              .col-md-5
                 h4.txt-pestanas-tema9 JSON (JavaScript Object Notation)
                 p.txt-pestanas-tema9 utilizado para almacenar y transportar datos. Está diseñado para ser legible tanto por máquinas como por humanos. Aporta beneficios, ya que se puede convertir fácilmente en objeto del lenguaje de programación JavaScript, y viceversa.
 
-              .col-md-6.mb-4.mb-md-0
+              .col-md-7.mb-4.mb-md-0
+                .titulo-sexto.color-acento-contenido
+                  h5 Figura 22.
+                  span.fst-italic Formato de JSON               
                 figure
                   img(src='@/assets/curso/temas/img3-pestanas-tema9.png', alt='Texto que describa la imagen').img-pestanas-tema9
                   //figcaption Leyenda de la imagen
@@ -153,9 +162,9 @@ export default {
       {
         titulo: 'Postman:',
         texto:
-          'Es una plataforma API para construir y usar API. Se puede  descargar Postman en su web oficial: La instalación es sencilla, en Windows se ejecuta el instalador y se siguen las indicaciones. Si se abre Postman “de manera rápida”, se tendrá una interfaz muy parecida a la siguiente:',
+          'Es una plataforma <i>API</i> para construir y usar <i>API</i>. Se puede  descargar Postman en su web oficial: La instalación es sencilla, en Windows se ejecuta el instalador y se siguen las indicaciones. Si se abre Postman “de manera rápida”, se tendrá una interfaz muy parecida a la siguiente:',
         imagen: require('@/assets/curso/temas/img1-slider-tema9.png'),
-        // leyendaImagen: 'Leyenda de la imagen',
+        leyendaImagen: '<b>Figura 16</b>. <i>Plataforma Postman</i>',
         //a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
         //  .anexo__icono
         //    img(src="@/assets/template/icono-link.svg")
@@ -167,21 +176,21 @@ export default {
         texto:
           'Peticiones con un Body, en Postman, se pueden realizar en la siguiente sección mostrada, por lo regular con peticiones como POST, PUT, PATCH:',
         imagen: require('@/assets/curso/temas/img2-slider-tema9.png'),
-        // leyendaImagen: 'Leyenda de la imagen',
+        leyendaImagen: '<b>Figura 17</b>. <i>Peticiones Body en Postman</i>',
       },
       {
         //titulo: 'Respuestas HTTP:',
         texto:
           'A continuación, se muestra el resultado de una petición con GET a la URL. La respuesta mostrada es en formato JSON. Se puede observar un objeto con los campos o claves: versión, que es un valor de texto y newsSites. NewsSites a su vez, es un vector de textos.',
         imagen: require('@/assets/curso/temas/img3-slider-tema9.png'),
-        // leyendaImagen: 'Leyenda de la imagen',
+        leyendaImagen: '<b>Figura 18</b>. <i>Petición GET en Postman</i>',
       },
       {
         titulo: 'SOAPUI',
         texto:
           'Según su web oficial, es la herramienta de prueba automatizada más utilizada en el mundo para las API de SOAP y REST. Funciona para escribir, ejecutar, integrar y automatizar pruebas de API avanzadas con facilidad.',
         imagen: require('@/assets/curso/temas/img4-slider-tema9.png'),
-        // leyendaImagen: 'Leyenda de la imagen',
+        leyendaImagen: '<b>Figura 19</b>. <i>Herramienta SOAPUI</i>',
       },
     ],
   }),

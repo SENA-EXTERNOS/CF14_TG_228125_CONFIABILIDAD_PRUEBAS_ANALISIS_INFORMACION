@@ -14,9 +14,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/t5/1.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p La programación orientada es un paradigma de programación, que toma todo lo que está en el mundo circundante y lo mira como un objeto.
-
-        p Existen cuatro principales pilares para que algo se considere orientado a objetos:
+        p La programación orientada es un paradigma de programación, que toma todo lo que está en el mundo circundante y lo mira como un objeto. <br>Existen cuatro principales pilares para que algo se considere orientado a objetos:
 
         ul.lista-ul.mt-4
           li

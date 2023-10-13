@@ -9,7 +9,7 @@
 
 
 
-    p Cuando se habla de tecnologías de programación se refiere a los lenguajes de programación que se pueden utilizar para el desarrollo de software, así como las diferentes herramientas y frameworks que se pueden aplicar.
+    p Cuando se habla de tecnologías de programación se refiere a los lenguajes de programación que se pueden utilizar para el desarrollo de #[i software], así como las diferentes herramientas y #[i frameworks] que se pueden aplicar.
 
     p Entre ellas podemos encontrar las siguientes:
 

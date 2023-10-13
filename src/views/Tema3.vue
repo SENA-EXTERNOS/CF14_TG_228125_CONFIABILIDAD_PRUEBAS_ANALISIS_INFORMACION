@@ -14,7 +14,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/t3/1.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Para empezar, hay que aclarar que los lenguajes de programación son aquellos que con su sintaxis pueden escribir líneas de códigos que planteen un algoritmo; su principal uso es crear aplicaciones #[em software] para distintos propósitos: escritorio, web, móvil, etc.  Con un lenguaje de programación se pueden crear librerías y reutilizar una o varias funcionalidades en los diferentes proyectos que se requiera. Con un buen conjunto de librerías, buenas prácticas e incluso patrones de diseño, se pueden crear <em>frameworks</em> que aceleran la construcción de un producto #[em software]. El término de framework (marco de trabajo), en general, es algo que indica #[b qué] hacer, pero no el #[b cómo], así que es posible adaptarlo según la necesidad y definir el cómo.
+        p.mb-0 Para empezar, hay que aclarar que los lenguajes de programación son aquellos que con su sintaxis pueden escribir líneas de códigos que planteen un algoritmo; su principal uso es crear aplicaciones #[em software] para distintos propósitos: escritorio, web, móvil, etc.  Con un lenguaje de programación se pueden crear librerías y reutilizar una o varias funcionalidades en los diferentes proyectos que se requiera. Con un buen conjunto de librerías, buenas prácticas e incluso patrones de diseño, se pueden crear <em>frameworks</em> que aceleran la construcción de un producto #[em software]. El término de #[i framework] (marco de trabajo), en general, es algo que indica #[b qué] hacer, pero no el #[b cómo], así que es posible adaptarlo según la necesidad y definir el cómo.
 
 
 
@@ -25,7 +25,7 @@
     p Existen <em>frameworks</em> (marcos de trabajo) para la mayoría de los lenguajes de programación más populares en la industria. Enfoquémonos en algunos de los <em>frameworks</em> más usados para el desarrollo web.
 
 
-    .slyderB_bg_03.p-5.mb-5
+    .slyderB_bg_03.p-4.mb-5
 
       SlyderA(tipo="b")
 

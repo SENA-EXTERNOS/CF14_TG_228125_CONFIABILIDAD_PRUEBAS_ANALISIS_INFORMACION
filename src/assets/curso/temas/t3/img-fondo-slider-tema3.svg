@@ -654,24 +654,6 @@
           <path id="Trazado_72" data-name="Trazado 72" d="M695.963,444a5.211,5.211,0,1,1-5.186-4.7,4.961,4.961,0,0,1,5.186,4.7Z" transform="translate(-10.122 102.146)" fill="none" stroke="#8f9294" stroke-miterlimit="10" stroke-width="0.985"/>
         </g>
       </g>
-      <g id="Grupo_897999" data-name="Grupo 897999" transform="translate(0 -2073)">
-        <g id="Grupo_894363" data-name="Grupo 894363" transform="translate(0 -2258)">
-          <circle id="Elipse_4699" data-name="Elipse 4699" cx="25" cy="25" r="25" transform="translate(201 5736)" fill="#21cbae"/>
-          <path id="Trazado_113514" data-name="Trazado 113514" d="M-21088-7107.893l7.188,7.187-7.187,7.187" transform="translate(-20858.406 -1339.705) rotate(180)" fill="none" stroke="#fff" stroke-width="3"/>
-        </g>
-        <g id="Grupo_894362" data-name="Grupo 894362" transform="translate(175 -992)">
-          <circle id="Elipse_4701" data-name="Elipse 4701" cx="7.5" cy="7.5" r="7.5" transform="translate(530 4488)" fill="#21cbae"/>
-          <circle id="Elipse_4702" data-name="Elipse 4702" cx="7.5" cy="7.5" r="7.5" transform="translate(565 4488)" fill="#21cbae" opacity="0.35"/>
-          <circle id="Elipse_4703" data-name="Elipse 4703" cx="7.5" cy="7.5" r="7.5" transform="translate(600 4488)" fill="#21cbae" opacity="0.35"/>
-          <circle id="Elipse_6195" data-name="Elipse 6195" cx="7.5" cy="7.5" r="7.5" transform="translate(635 4488)" fill="#21cbae" opacity="0.35"/>
-          <circle id="Elipse_6196" data-name="Elipse 6196" cx="7.5" cy="7.5" r="7.5" transform="translate(670 4487)" fill="#21cbae" opacity="0.35"/>
-          <circle id="Elipse_6197" data-name="Elipse 6197" cx="7.5" cy="7.5" r="7.5" transform="translate(705 4488)" fill="#21cbae" opacity="0.35"/>
-        </g>
-        <g id="Grupo_894370" data-name="Grupo 894370" transform="translate(0 -2258)">
-          <circle id="Elipse_4700" data-name="Elipse 4700" cx="25" cy="25" r="25" transform="translate(1401 5786) rotate(180)" fill="#21cbae"/>
-          <path id="Trazado_113515" data-name="Trazado 113515" d="M-21088-7107.893l7.188,7.187-7.187,7.187" transform="translate(22460.406 12861.705)" fill="none" stroke="#fff" stroke-width="3"/>
-        </g>
-      </g>
     </g>
   </g>
 </svg>

@@ -47,6 +47,9 @@
 
         .row.justify-content-center
           .col-auto
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 1.
+              span.fst-italic Servidores más utilizados           
             figure
               img(src="@/assets/curso/temas/img-servi-mercado-tema1.png", alt="alt")
 
@@ -55,7 +58,9 @@
 
     .row.justify-content-center.mb-5
       .col-auto
-
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 2.
+          span.fst-italic Cuota de uso mensual de navegadores web 
         figure
           img(data-aos="fade-left")(src="@/assets/curso/temas/t1/navegadores_trend_sinhead.png", alt="Popularidad de los navegadores")
         figcaption Cuota de uso mensual de navegadores web. Fuente: https://www.w3counter.com/trends
@@ -142,7 +147,7 @@
 
             .col-md-6.mb-4.mb-md-0
 
-              p Las primeras páginas web fueron estáticas y rígidas, lo cual no permitía la fluidez del contenido. Por esa problemática, en 1994 nace CSS (Hoja de estilos en cascada), lenguaje que se compone de una serie de reglas que permiten dar apariencia a la página web como, color de letra, márgenes, el tamaño de los elementos y también poder adaptar las páginas a las diferentes pantallas de los dispositivos, lo que se llama Responsive Design.
+              p Las primeras páginas web fueron estáticas y rígidas, lo cual no permitía la fluidez del contenido. Por esa problemática, en 1994 nace CSS (Hoja de estilos en cascada), lenguaje que se compone de una serie de reglas que permiten dar apariencia a la página web como, color de letra, márgenes, el tamaño de los elementos y también poder adaptar las páginas a las diferentes pantallas de los dispositivos, lo que se llama #[i Responsive Design].
 
 
 
@@ -153,7 +158,7 @@
     .titulo-segundo.color-acento-contenido.mb-5
       h2 1.1 HTML
 
-    p HTML 5 mejora la versión de HTML, de acuerdo con el avance en las API y en el conjunto de herramientas que conforman la tecnología web; pero aparte de esto, presenta nuevas características en el lenguaje HTML y esto se va a describir a continuación.
+    p HTML 5 mejora la versión de HTML, de acuerdo con el avance en las #[i API] y en el conjunto de herramientas que conforman la tecnología web; pero aparte de esto, presenta nuevas características en el lenguaje HTML y esto se va a describir a continuación.
 
     TabsC.color-primario.mb-4
       .py-3.py-md-4(titulo="Semántica")
@@ -167,7 +172,7 @@
 
             p El elemento #[code &lt;audio&gt;] funciona de forma similar a la etiqueta #[code &lt;video&gt;] con la diferencia de que ocupa menos espacio en la página y no soporta los atributos de #[em width] y #[em height].
 
-            p Otra nueva característica en semántica son los formularios en HTML5, incluyen nueva API de validación, a parte, atributos nuevos, nuevos valores para la etiqueta input con el atributo #[em type] y #[em output]. También existen nuevos elementos semánticos que permiten incluir directamente fórmulas matemáticas (MathML), las etiquetas #[code &lt;mark&gt;, &lt;figure&gt;, &lt;data&gt;, &lt;time&gt;], entre otras, y una mejora en el funcionamiento de la etiqueta #[code &lt;iframe&gt;].
+            p Otra nueva característica en semántica son los formularios en HTML5, incluyen nueva #[i API] de validación, a parte, atributos nuevos, nuevos valores para la etiqueta input con el atributo #[em type] y #[em output]. También existen nuevos elementos semánticos que permiten incluir directamente fórmulas matemáticas (MathML), las etiquetas #[code &lt;mark&gt;, &lt;figure&gt;, &lt;data&gt;, &lt;time&gt;], entre otras, y una mejora en el funcionamiento de la etiqueta #[code &lt;iframe&gt;].
 
 
           .col-md-5
@@ -180,7 +185,7 @@
             p En la parte de conectividad se tienen unas características nuevas que se muestran a continuación:
 
             h4 #[em Web Sockets]
-            p Es una API para abrir una sesión de manera bidireccional entre usuario y servidor, permitiendo el envío de peticiones por eventos sin tener que estar testeando el servidor en cada llamada.
+            p Es una #[i API] para abrir una sesión de manera bidireccional entre usuario y servidor, permitiendo el envío de peticiones por eventos sin tener que estar testeando el servidor en cada llamada.
 
             h4 #[em Server-send events]
             p Esta función se agrega cuando se necesita que la aplicación web transmita eventos desde el servidor al <em>Front End</em> del cliente, se hace una conexión unidireccional, es decir, el cliente no podrá responder al servidor.
@@ -258,6 +263,9 @@
 
         .row.justify-content-center
           .col-auto
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 3.
+              span.fst-italic Ejemplo de uso para reglas de CSS          
             figure
               img(src="@/assets/curso/temas/img-tarj2-css-tema1.png")
 
@@ -279,6 +287,9 @@
       .py-4
         .row.justify-content-center
           .col-auto
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 4.
+              span.fst-italic Ejemplo de maquetación de páginas           
             figure
               img(src="@/assets/curso/temas/img2-tarj4-css-tema1.png")
 
@@ -297,6 +308,9 @@
       .py-4
         .row.justify-content-center
           .col-auto
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 5.
+              span.fst-italic Estilos mínimos para elementos HTML           
             figure
               img(src="@/assets/curso/temas/img-hojas-css-tema1.png")
 
@@ -370,22 +384,25 @@
 
     h3.mb-4
       i.fas.fa-square.cac
-      | &nbsp;Selector Id (#)
+      span.mb-0 &nbsp;Selector #[i Id] (#)
 
-    p El selector #[strong id] es una forma única de etiquetar un elemento HTML, es decir, que tendrá un nombre único que no se puede repetir en toda la página.
-    p CSS para referenciar un elemento por su #[strong id] se hace a través del símbolo #[span.etiqueta #] y al frente el nombre con el que se va a identificar. Veamos:
+    p El selector #[strong.fst-italic id] es una forma única de etiquetar un elemento HTML, es decir, que tendrá un nombre único que no se puede repetir en toda la página.
+    p CSS para referenciar un elemento por su #[strong.fst-italic id] se hace a través del símbolo #[span.etiqueta #] y al frente el nombre con el que se va a identificar. Veamos:
 
 
     .slyderB_bg_02.p-5.my-5
       SlyderA(tipo="b")
 
         .row.justify-content-center.align-items-center.my-lg-4
-          .col-md-6
+          .col-md-7
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 6.
+              span.fst-italic Uso del atributo Id para la etiqueta p           
             figure
               img(src='@/assets/curso/temas/img1-slider3-tema1.png', alt='Texto que describa la imagen').img-slider3-tema1
               //figcaption Leyenda de la imagen
 
-          .col-md-6.mb-4.mb-md-0
+          .col-md-5.mb-4.mb-md-0
               p.txt-slider3-tema1 En esta imagen se observa cómo se agrega el atributo id a la etiqueta p, ahora con ese id se hace referencia desde el archivo externo CSS para aplicar las reglas necesarias.
 
 
@@ -393,9 +410,12 @@
         .row.justify-content-center.align-items-center.my-lg-4
 
           .col-md-6
-              figure
-                img(src='@/assets/curso/temas/img2-slider3-tema1.png', alt='Texto que describa la imagen').img-slider3-tema1
-                //figcaption Leyenda de la imagen
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 7.
+              span.fst-italic Uso del atributo Id          
+            figure
+              img(src='@/assets/curso/temas/img2-slider3-tema1.png', alt='Texto que describa la imagen').img-slider3-tema1
+              //figcaption Leyenda de la imagen
 
 
           .col-md-6.mb-4.mb-md-0
@@ -405,13 +425,16 @@
 
         .row.justify-content-center.align-items-center.my-lg-4
 
-          .col-md-6
+          .col-md-7
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 8.
+              span.fst-italic Asignación de atributo class           
             figure
               img(src='@/assets/curso/temas/img3-slider3-tema1.png', alt='Texto que describa la imagen').img-slider3-tema1
               //figcaption Leyenda de la imagen
 
 
-          .col-md-6.mb-4.mb-md-0
+          .col-md-5.mb-4.mb-md-0
             h4.txt-slider3-tema1 Referencia por <em>class</em>
             p.txt-slider3-tema1 En las páginas es muy inusual necesitar aplicar estilos específicos a cada etiqueta para usar siempre el id; mientras es más común requerir aplicar unas reglas a un conjunto de elementos en particular, a esos elementos se les agrega el atributo <em>class</em> y se les asigna el mismo nombre. Serían elementos de la misma clase y cuando se apliquen reglas a esa clase se aplica a todos los elementos que la componen.
 
@@ -438,6 +461,9 @@
 
     .row.justify-content-center.my-5
       .col-auto
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 9.
+          span.fst-italic Ejemplo de uso para selector >       
         figure
           img(src='@/assets/curso/temas/t1/code_css1.png')
 
@@ -453,6 +479,9 @@
 
     .row.justify-content-center.my-5
       .col-auto
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 10.
+          span.fst-italic Ejemplo de uso para selector +       
         figure
           img(src='@/assets/curso/temas/t1/code_css2.png')
 

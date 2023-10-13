@@ -31,11 +31,14 @@
 
 
     .row.my-5
-      .col-lg-7
+      .col-lg-6
         .bg_verde
           .p-4
             p Un navegador web, por ejemplo: Mozilla Firefox, Google Chrome, etc., por defecto realiza peticiones GET mediante la URL; cuando se recibe la respuesta, el navegador web mostrará el documento HTML con CSS y JS (si los contiene la página consultada). Cuando, por ejemplo, se ingresa a: <a href="https://www.sena.edu.co/">https://www.sena.edu.co/</a> escribiendo la dirección en la barra de navegación, la petición realizada por defecto es con GET y se obtendrá lo que se ve en la pantalla del navegador como respuesta. Para el caso de peticiones a un #[i Endpoint] de un API REST, se realiza GET para realizar una consulta o leer un recurso, recuperar un recurso. El método GET es usado por un cliente para acceder o consultar un recurso que está en la URL especificada en el servidor.
-      .col-lg-5
+      .col-lg-6
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 11.
+          span.fst-italic Ejemplo de URL        
         figure
           img(data-aos="fade-right")(src='@/assets/curso/temas/t7/2.png', alt='Texto que describa la imagen')
 
@@ -58,6 +61,9 @@
             p El método POST suele usarse también cuando se envía información mediante formularios. Normalmente, la petición realizada es de este tipo. Cuando se hace clic en el botón de “ingresar” se enviará una petición POST (en este caso), con esta información. En el inspector del navegador (opción “red”) se puede observar.
 
           .col-md-6
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 12.
+              span.fst-italic Ejemplo de metodo POST           
             figure
               img(src='@/assets/curso/temas/img1-slider2-tema7.png')
               //figcaption Leyenda de la imagen
@@ -68,6 +74,9 @@
           .col-md-4.mb-4.mb-md-0
             p En esta imagen se puede ver que a la URL descrita de <em>login</em>, se le envió una petición post.
           .col-md-6
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 13.
+              span.fst-italic Peticion POST a URL           
             figure
               img(src='@/assets/curso/temas/img2-slider2-tema7.png')
               //figcaption Leyenda de la imagen
@@ -106,7 +115,7 @@ export default {
       {
         titulo: 'Respuestas HTTP:',
         texto:
-          'mensaje que envía el servidor al cliente tras haber recibido una petición o HTTP request.',
+          'mensaje que envía el servidor al cliente tras haber recibido una petición o HTTP <i>request</i>.',
         imagen: require('@/assets/curso/temas/img2-slider-tema7.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

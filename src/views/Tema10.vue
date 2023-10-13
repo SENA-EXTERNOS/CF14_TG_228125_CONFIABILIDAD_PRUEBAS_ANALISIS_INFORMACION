@@ -45,7 +45,7 @@
                 //figcaption Leyenda de la imagen
 
           .row(titulo="NetBeans")
-            .col-md-6.mb-4.mb-md-0
+            .col-md-5.mb-4.mb-md-0
 
               p.txt-acord-tema10 Principalmente usado para trabajar con lenguajes de programación Java, PHP, pero se puede trabajar con cualquier lenguaje. Su web oficial es:
 
@@ -55,7 +55,7 @@
                 .anexo__texto
                   p Enlace web. https://netbeans.apache.org/download/index.html
 
-            .col-md-6
+            .col-md-7
               figure
                 img(src='@/assets/curso/temas/img3-acord-tema10.png', alt='Texto que describa la imagen').img-acord-tema10
                 //figcaption Leyenda de la imagen
@@ -75,7 +75,7 @@
 
     h3.mb-4.mt-5
       i.fas.fa-square.cac
-      | &nbsp;DEBUG (Detección de errores)
+      span &nbsp;#[i DEBUG] (Detección de errores)
 
 
     p Debug o depurador, es una herramienta que analiza el código de forma controlada mientras se ejecuta. Con esta herramienta se puede identificar y eliminar la causa de un error o conocer mejor el funcionamiento del código.
@@ -221,12 +221,12 @@
 
         p Y se debe anexar a la colección la fecha de registro del producto y fecha de actualización.
         p Veamos en el siguiente anexo, el paso a paso para construir por completo su aplicación web en el lado del <em>Back End</em>.
-
+      
         a.anexo.mb-4(:href="obtenerLink('/downloads/pasos_construir_aplicacion_web.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Anexo. Paso a paso para construir su aplicación web
+            p Anexo. IDES de desarrollo
 
 
       .col-lg-5

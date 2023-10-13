@@ -13,10 +13,10 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/t8/1.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Hoy en día, el término de DevOps es común en el mundo del desarrollo de software. Dev se refiere a los desarrolladores, quienes construyen la parte funcional del proyecto final; mientras que Ops se refiere a los procesos para el despliegue del software y la infraestructura ligada al desarrollo y dicho despliegue. En los proyectos actuales la infraestructura está relacionada con arquitecturas Cloud o en la nube.
+        p.mb-0 Hoy en día, el término de #[i DevOps] es común en el mundo del desarrollo de #[i software]. Dev se refiere a los desarrolladores, quienes construyen la parte funcional del proyecto final; mientras que #[i Ops] se refiere a los procesos para el despliegue del #[i software] y la infraestructura ligada al desarrollo y dicho despliegue. En los proyectos actuales la infraestructura está relacionada con arquitecturas Cloud o en la nube.
         br
         br
-        p DevOps no es un rol, es una metodología de trabajo que ayuda a la organización de los equipos de desarrollo de software, y no solo desarrolladores, sino todos los interesados en el proyecto que se esté desarrollando, para llevar a cabo la construcción de aplicaciones software de calidad. DevOps incluye metodologías ágiles como Scrum y una serie de buenas prácticas.
+        p #[i DevOps] no es un rol, es una metodología de trabajo que ayuda a la organización de los equipos de desarrollo de #[i software], y no solo desarrolladores, sino todos los interesados en el proyecto que se esté desarrollando, para llevar a cabo la construcción de aplicaciones #[i software] de calidad. #[i DevOps] incluye metodologías ágiles como Scrum y una serie de buenas prácticas.
 
 
     .bg1svg.my-5
@@ -25,6 +25,9 @@
 
         .row.justify-content-center
           .col-lg-7
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 14.
+              span.fst-italic Ciclo herramientas tecnológicas usadas en DevOps           
             figure
               img(src='@/assets/curso/temas/img-devops-tema8.png')
 
