@@ -11,7 +11,7 @@
     .row.align-items-center
       .col-lg-7.fondo-der-tarj1-tema10
 
-        p.txt-tarj1-tema10.p-3 El término IDE (Integrated Development Environment) traduce al español “ambiente de desarrollo integrado” y son herramientas que ayudan en la codificación de las aplicaciones, desde la edición del código hasta compilación y ejecución de los programas. Los IDEs, en su mayoría, tienen integrados compiladores y herramientas de Debug, los IDEs modernos poseen un sinnúmero de características que ayudan a codificar de manera rápida y versátil. Mencionemos algunos ejemplos:
+        p.txt-tarj1-tema10.p-3 El término IDE (#[em Integrated Development Environment]) traduce al español “ambiente de desarrollo integrado” y son herramientas que ayudan en la codificación de las aplicaciones, desde la edición del código hasta compilación y ejecución de los programas. Los IDEs, en su mayoría, tienen integrados compiladores y herramientas de Debug, los IDEs modernos poseen un sinnúmero de características que ayudan a codificar de manera rápida y versátil. Mencionemos algunos ejemplos:
 
       .col-lg-5.fondo-izq-tarj1-tema10
 
@@ -199,7 +199,7 @@
           p.text-bold La entrega y el despliegue continuo son dos términos que vienen íntimamente ligados, expresado en uno solo como: CI/CD.
 
 
-    p Para esta ocasión realizarán, lo que se llama famosamente: CRUD, que son las siglas de <i>Create, Read, Update, Delete</i>. Van a tener una colección (en bases de datos relacionales, tabla) de productos de aseo y van a gestionarlos. Crearán un producto, lo consultarán por el ID del producto, lo actualizarán y lo borrarán. Para las pruebas del CRUD, usarán Postman para probar los servicios del API REST.
+    p Para esta ocasión realizarán, lo que se llama famosamente: CRUD, que son las siglas de #[em Create, Read, Update, Delete]. Van a tener una colección (en bases de datos relacionales, tabla) de productos de aseo y van a gestionarlos. Crearán un producto, lo consultarán por el #[em ID] del producto, lo actualizarán y lo borrarán. Para las pruebas del CRUD, usarán Postman para probar los servicios del API REST.
 
 
     .row.my-5

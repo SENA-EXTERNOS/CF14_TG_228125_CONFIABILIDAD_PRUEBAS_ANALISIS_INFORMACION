@@ -384,10 +384,10 @@
 
     h3.mb-4
       i.fas.fa-square.cac
-      span.mb-0 &nbsp;Selector #[i Id] (#)
+      span.mb-0 &nbsp;Selector #[em Id] (#)
 
-    p El selector #[strong.fst-italic id] es una forma única de etiquetar un elemento HTML, es decir, que tendrá un nombre único que no se puede repetir en toda la página.
-    p CSS para referenciar un elemento por su #[strong.fst-italic id] se hace a través del símbolo #[span.etiqueta #] y al frente el nombre con el que se va a identificar. Veamos:
+    p El selector #[b #[em id]] es una forma única de etiquetar un elemento HTML, es decir, que tendrá un nombre único que no se puede repetir en toda la página.
+    p CSS para referenciar un elemento por su #[b #[em id]] se hace a través del símbolo #[span.etiqueta #] y al frente el nombre con el que se va a identificar. Veamos:
 
 
     .slyderB_bg_02.p-5.my-5
@@ -403,7 +403,7 @@
               //figcaption Leyenda de la imagen
 
           .col-md-5.mb-4.mb-md-0
-              p.txt-slider3-tema1 En esta imagen se observa cómo se agrega el atributo id a la etiqueta p, ahora con ese id se hace referencia desde el archivo externo CSS para aplicar las reglas necesarias.
+              p.txt-slider3-tema1 En esta imagen se observa cómo se agrega el atributo #[em id] a la etiqueta p, ahora con ese #[em id] se hace referencia desde el archivo externo CSS para aplicar las reglas necesarias.
 
 
 
@@ -416,15 +416,12 @@
             figure
               img(src='@/assets/curso/temas/img2-slider3-tema1.png', alt='Texto que describa la imagen').img-slider3-tema1
               //figcaption Leyenda de la imagen
-
-
           .col-md-6.mb-4.mb-md-0
-            p.txt-slider3-tema1 La aplicación de las reglas CSS con id indican que solo a la etiqueta que tenga ese id llamado parrafo1 se le aplicaran las reglas de letra tamaño 15px y de color azul.
+            p.txt-slider3-tema1 La aplicación de las reglas CSS con #[em id] indican que solo a la etiqueta que tenga ese #[em id] llamado parrafo1 se le aplicaran las reglas de letra tamaño 15px y de color azul.
 
 
 
         .row.justify-content-center.align-items-center.my-lg-4
-
           .col-md-7
             .titulo-sexto.color-acento-contenido
               h5 Figura 8.
@@ -432,11 +429,9 @@
             figure
               img(src='@/assets/curso/temas/img3-slider3-tema1.png', alt='Texto que describa la imagen').img-slider3-tema1
               //figcaption Leyenda de la imagen
-
-
           .col-md-5.mb-4.mb-md-0
             h4.txt-slider3-tema1 Referencia por <em>class</em>
-            p.txt-slider3-tema1 En las páginas es muy inusual necesitar aplicar estilos específicos a cada etiqueta para usar siempre el id; mientras es más común requerir aplicar unas reglas a un conjunto de elementos en particular, a esos elementos se les agrega el atributo <em>class</em> y se les asigna el mismo nombre. Serían elementos de la misma clase y cuando se apliquen reglas a esa clase se aplica a todos los elementos que la componen.
+            p.txt-slider3-tema1 En las páginas es muy inusual necesitar aplicar estilos específicos a cada etiqueta para usar siempre el #[em id]; mientras es más común requerir aplicar unas reglas a un conjunto de elementos en particular, a esos elementos se les agrega el atributo #[em class] y se les asigna el mismo nombre. Serían elementos de la misma clase y cuando se apliquen reglas a esa clase se aplica a todos los elementos que la componen.
 
 
         .row.justify-content-center.align-items-center.my-lg-4

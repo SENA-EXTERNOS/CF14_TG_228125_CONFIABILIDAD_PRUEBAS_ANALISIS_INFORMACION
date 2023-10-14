@@ -22,10 +22,6 @@ export default {
         clases: ['banner-principal-decorativo-4'],
         imagen: require('@/assets/curso/portada/img-decor4.png'),
       },
-      {
-        clases: ['banner-principal-decorativo-5'],
-        imagen: require('@/assets/curso/portada/flechas-blancas-vert.svg'),
-      },
     ],
   },
   menuPrincipal: {
