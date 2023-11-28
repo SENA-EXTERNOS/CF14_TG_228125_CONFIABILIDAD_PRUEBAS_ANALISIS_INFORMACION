@@ -52,7 +52,7 @@
               a.anexo.mb-4.mb-lg-0(href="https://netbeans.apache.org/download/index.html" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
-                .anexo__texto
+                .anexo__texto.text-small
                   p Enlace web. https://netbeans.apache.org/download/index.html
 
             .col-md-7

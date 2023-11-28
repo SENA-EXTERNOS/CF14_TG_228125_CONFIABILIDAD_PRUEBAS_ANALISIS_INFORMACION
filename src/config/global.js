@@ -209,10 +209,15 @@ export default {
     },
     {
       tema: 'Patrones de diseño',
-      referencia:
-        '<em>Just a moment. . . (s. f.).</em> Recuperado 19 de octubre de 2022, de',
+      referencia: 'Shvets A.<em> Patrones de diseño</em>. Refactoring.Guru.',
       tipo: 'Artículo',
-      link: 'https://refactoring.guru/es',
+      link: 'https://refactoring.guru/es/design-patterns',
+    },
+    {
+      tema: 'Patrones de diseño',
+      referencia: 'Shvets A. <em>Refactorización</em>. Refactoring.Guru.',
+      tipo: 'Artículo',
+      link: 'https://refactoring.guru/es/refactoring',
     },
     {
       tema: 'DevOps',
@@ -289,7 +294,7 @@ export default {
       link: 'https://www.enmilocalfunciona.io/principios-solid/',
     },
     {
-      referencia: 'AWS (2022). Recuperado de:',
+      referencia: 'AWS (2022) <em>¿Qué es una API RESTful?</em> Recuperado de',
       link: 'https://aws.amazon.com/es/what-is/restful-api/',
     },
     {
@@ -307,16 +312,19 @@ export default {
         'https://medium.com/dottech/qu%C3%A9-es-devops-y-por-qu%C3%A9-es-tan-importante-427fbfc81136',
     },
     {
-      referencia: 'Mozilla (2022). Compilación. Recuperado',
-      link: 'https://developer.mozilla.org/es/docs/Glossary/Compile',
+      referencia:
+        'Macías C. (2019). <em>Principios SOLID.</em> Enmilocalfunciona. Recuperado de ',
+      link: 'https://www.enmilocalfunciona.io/principios-solid/',
     },
     {
-      referencia: 'Keepcoding (2022). Máscara de red. Recuperado de',
-      link: 'https://keepcoding.io/blog/que-es-una-mascara-de-red/',
+      referencia:
+        'Shvets A. <em>Refactorización.</em> Refactoring.Guru. Recuperado de',
+      link: 'https://refactoring.guru/es/refactoring',
     },
     {
-      referencia: 'Refactoring.guru (2022). Refactoring. Recuperado de:',
-      link: 'https://refactoring.guru/es',
+      referencia:
+        'Shvets A. <em>Patrones de diseño.</em> Refactoring.Guru. Recuperado de',
+      link: 'https://refactoring.guru/es/design-patterns',
     },
   ],
   creditos: {
